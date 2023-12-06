@@ -1,55 +1,45 @@
-# WiggleR
+# WiggleR - Build
 
-The following are steps to build our first prototype version WiggleR V0.0.1. WiggleR is a desktop research unit for making controlled experiments with worms.
+The following are steps to build WiggleR V0.1.0. WiggleR is a desktop research unit for making controlled experiments with worms.
 
-![WiggleR - innovative open-source desktop composting research unit](./Images/WiggleRUnit.jpeg)
+![WiggleR - 3D render of the WiggleR unit](./Images/WiggleR-3D-Render.png)
 
-## Box
+## Bill of materials for box
 
 ### Materials
+- [EuroBin 400*300](https://www.engelslogistiek.nl/webshop/stapelbare-opslag-en-transportbakken/e-line-euronorm-stapelbakken/EN-4312-1-1.html)
 - Wood or acrylic
 - Oil
-- Wood glue (or even better, waterproof glue)
-- Instant glue
+- [M2.5 spacer kit](https://www.tinytronics.nl/shop/en/tools-and-mounting/installation-and-mounting-material/spacers/m2.5-spacer-kit)
+- [M3 spacer kit](https://www.tinytronics.nl/shop/en/tools-and-mounting/installation-and-mounting-material/spacers/m3-spacer-kit)
+- [Nuts and bolts](https://www.tinytronics.nl/shop/en/tools-and-mounting/installation-and-mounting-material/bolts/bolt-nut-and-washer-set-m2-m3-m4-including-3-allen-keys-1080-pieces)
+- [Cable glands](https://www.tinytronics.nl/shop/en/tools-and-mounting/installation-and-mounting-material/cable-glands/cable-gland-m12-3mm-6.5mm)
 
 ### Tools
 - Laser cutter
+- 3D printer (optional)
 
 ### Build
 
 Vector file for lasercutting can be found in the [`Design`](./Design/) folder.
 
-WiggleR consists of an acrylic base for keeping soil and worms. A wooden seperator to create distance between camera and worms. Wooden top for electronics.
+WiggleR comprises a EuroBin for housing soil and worms, topped with a wooden lid to accommodate electronics like the Raspberry Pi.
 
-![](./Images/WiggleRPieces.jpeg)
-
-Wooden panel can be glued together. Add tape to keep parts together while the glue dries.
-
-Acrylic has been glued with instant glue. More suitable glues are probably available, however it is only version 0.0.1 :).
-
-Birch wood has been oiled on the outside with cooked lineseed oil and danish oil on the inside. Oil can be applied with (paper) cloth. Make sure to read the safety instruction when using oil, since it can be a fire hazard.
-
-### Improvements
-
-- Using waterproof multiplex or acrylic
-- Lasercut file does not contain holes for RP HQ camera bolts, RP zero bolts and sensors
-- Port holes in back can be more precise
-- Needs bottom unit
-- Bottom unit with backlight would be nice
+For increased longevity, you can oil the birch wood with substances such as boiled linseed oil or Danish oil. Apply the oil using a (paper) cloth, ensuring to observe safety instructions, as oils can pose a fire hazard.
 
 ## Electronics
 
-![](./Images/WiggleRRaspberryAndRing.jpeg)
+### Must have electronics
 
-### Materials
-
-- [Raspberry Zero](https://www.kiwi-electronics.com/nl/raspberry-pi-zero-wh-header-voorgesoldeerd-3328)
+- Raspberry Pi or [Raspberry Zero](https://www.kiwi-electronics.com/nl/raspberry-pi-zero-wh-header-voorgesoldeerd-3328)
 - [Raspberry HQ Camera](https://www.kiwi-electronics.com/nl/raspberry-pi-hq-camera-m12-mount-11243)
 - [Raspberry Zero Adapters](https://www.kiwi-electronics.com/nl/raspberry-pi-zero-adapter-pack-2844)
 - [Raspberry Zero Camera Adapter](https://www.kiwi-electronics.com/nl/raspberry-pi-zero-camera-adapter-2842)
 - [Lens](https://www.kiwi-electronics.com/nl/m12-high-resolution-lens-12mp-113-fov-2-7mm-focal-length-11266)
-- [M2.5 spacers](https://www.kiwi-electronics.com/nl/m2-5-schoeven-en-afstandshouders-set-zwart-nylon-380-stuks-10252?search=spacer&page=2)
-- [Led Ring](https://www.tinytronics.nl/shop/nl/verlichting/ringen-en-modules/ sk6812-digitale-5050-rgb-led-ring-24-leds-wit)
+- [Led Ring](https://www.tinytronics.nl/shop/nl/verlichting/ringen-en-modules/sk6812-digitale-5050-rgb-led-ring-24-leds-wit)
+
+### Optional electronics
+
 - [ADS1115](https://www.tinytronics.nl/shop/nl/sensoren/stroom-spanning/ads1115-16-bit-adc-i2c-module-4-kanaals)
 - [Capacitive Soil Moisture sensor](https://www.tinytronics.nl/shop/en/sensors/liquid/capacitive-soil-moisture-sensor-module-with-cable). Make sure to buy a [good one](https://www.youtube.com/watch?v=IGP38bz-K48).
 - [1MΩ resistor](https://www.tinytronics.nl/shop/en/components/resistors/resistors/1m%CF%89-resistor)
@@ -61,8 +51,6 @@ Birch wood has been oiled on the outside with cooked lineseed oil and danish oil
 - Screw driver
 
 ### Connections
-
-![](./Images/WiggleRElectronics.jpeg)
 
 #### BME680
 

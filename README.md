@@ -6,7 +6,7 @@ In order to craft an open-source, intelligent composting bin, we want to underst
 
 Join us in this thrilling endeavor! Embark on a captivating, modern-day Darwinian journey into the realm of worms by creating your very own [WiggleR](./BUILD.md).
 
-![WiggleR - innovative open-source desktop composting research unit](./Images/WiggleRUnit.jpeg)
+![WiggleR - innovative open-source desktop composting research unit](./Images/WiggleRBasicSetup.jpg)
 
 ## Why?
 
