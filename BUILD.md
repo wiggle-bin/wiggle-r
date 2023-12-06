@@ -4,7 +4,7 @@ The following are steps to build WiggleR V0.1.0. WiggleR is a desktop research u
 
 ![WiggleR - 3D render of the WiggleR unit](./Images/WiggleR-3D-Render.png)
 
-## Bill of materials for box
+## Bill of materials for box  
 
 ### Materials
 - [EuroBin 400*300](https://www.engelslogistiek.nl/webshop/stapelbare-opslag-en-transportbakken/e-line-euronorm-stapelbakken/EN-4312-1-1.html)
